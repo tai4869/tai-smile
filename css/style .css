@@ -1,0 +1,19 @@
+.smooth{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em 2em;
+    width: 10em;
+    border-radius: 1.5em;
+    color: #fff;
+    background-color: mediumblue;
+    transition-property: background-color ;
+    transition-duration: 0.3s;
+    transition: background-color 0.3s ease-out,
+                color 2s ease-out,
+                letter-spacing 0.3s ease-out;
+
+}
+.smooth:hover, .smooth:focus{
+    background-color: red;
+}
