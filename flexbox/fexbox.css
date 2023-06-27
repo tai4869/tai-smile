@@ -1,0 +1,28 @@
+#container{ 
+    display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+*{ 
+    margin: 0;
+
+}
+.box{ width: 25%;
+height: 40px;
+}
+.box1{
+    background-color: rgb(19, 225, 43);
+}
+.box2{
+    background-color: rgb(215, 250, 224);
+}
+.box3{
+    background-color: rgb(47, 13, 236);
+}
+.box4{
+    background-color: rgb(193, 86, 47);
+}
+.box5{
+    background-color: antiquewhite;
+}
